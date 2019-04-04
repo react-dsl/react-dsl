@@ -1,0 +1,17 @@
+.DS_Store
+
+.idea
+.vscode
+
+/coverage
+/examples
+/node_modules
+/src
+
+.editorconfig
+
+tsconfig.json
+tsconfig.test.json
+tslint.json
+
+yarn.lock

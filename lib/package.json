@@ -1,0 +1,56 @@
+{
+    "author": "Dmitri Maltsev <dmitri.maltsev@hotmail.com>",
+    "dependencies": {
+        "chevrotain": "^4.2.0"
+    },
+    "description": "DSL interpreter for React",
+    "devDependencies": {
+        "@types/jest": "24.0.11",
+        "@types/react": "16.8.12",
+        "@types/react-dom": "16.8.3",
+        "@types/react-test-renderer": "16.8.1",
+        "jest": "23.6.0",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
+        "react-test-renderer": "16.8.3",
+        "ts-jest": "23.10.5",
+        "tslint": "5.12.1",
+        "typescript": "3.4.1",
+        "yarn-run-all": "3.1.1"
+    },
+    "jest": {
+        "globals": {
+            "ts-jest": {
+                "tsConfig": "tsconfig.test.json"
+            }
+        },
+        "moduleFileExtensions": [
+            "ts",
+            "js",
+            "tsx",
+            "jsx"
+        ],
+        "roots": [
+            "<rootDir>/src"
+        ],
+        "testRegex": "(/__tests__/.*)\\.tsx?$",
+        "transform": {
+            "^.+\\.tsx?$": "ts-jest"
+        }
+    },
+    "license": "MIT",
+    "main": "build/index.js",
+    "name": "react-dsl",
+    "peerDependencies": {
+        "react": "^16.0.0 || ^17.0.0",
+        "react-dom": "^16.0.0 || ^17.0.0"
+    },
+    "scripts": {
+        "lint": "tslint --project .",
+        "prepare": "tsc",
+        "start": "tsc --watch",
+        "test": "jest"
+    },
+    "types": "build/index.d.ts",
+    "version": "0.1.1"
+}

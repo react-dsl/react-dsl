@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DSL addition operator 1`] = `
+<span>
+  3
+</span>
+`;
+
+exports[`DSL greater than operator 1`] = `
+<span>
+  true
+</span>
+`;
+
+exports[`DSL less than operator 1`] = `
+<span>
+  false
+</span>
+`;
+
+exports[`DSL methods 1`] = `
+<span>
+  3
+</span>
+`;

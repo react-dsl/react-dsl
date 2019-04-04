@@ -1,0 +1,8 @@
+{
+    "author": "Dmitri Maltsev <dmitri.maltsev@hotmail.com>",
+    "devDependencies": {
+        "lerna": "^3.13.1"
+    },
+    "name": "react-dsl",
+    "private": true
+}

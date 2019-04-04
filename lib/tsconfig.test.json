@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "jsx": "react",
+        "lib": [
+            "es2016"
+        ],
+        "module": "commonjs",
+        "outDir": "./build",
+        "skipLibCheck": true,
+        "target": "es5"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

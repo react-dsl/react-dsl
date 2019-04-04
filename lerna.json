@@ -1,0 +1,12 @@
+{
+    "packages": [
+        "lib",
+        "examples/*"
+    ],
+    "npmClient": "yarn",
+    "npmClientArgs": [
+        "--production",
+        "--no-optional"
+    ],
+    "version": "0.1.0"
+}
